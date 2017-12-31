@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOSOpenPose" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kc4-tM-X80">
+                                <rect key="frame" x="3" y="149" width="368" height="368"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="368" id="ZLG-E9-urZ"/>
+                                    <constraint firstAttribute="height" constant="368" id="p6M-2j-fvz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeK-X1-Ssq">
+                                <rect key="frame" x="3" y="587" width="368" height="60"/>
+                                <color key="backgroundColor" red="0.10058242532176165" green="0.10058242532176165" blue="0.10058242532176165" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0LS-7B-Gg3"/>
+                                    <constraint firstAttribute="width" constant="368" id="U0r-sk-tjA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="Choose Image">
+                                    <color key="titleColor" red="0.13742108241705542" green="0.66468838003832642" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="chooseImageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gpo-rC-xc9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[368 x 368]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aga-rx-qUO">
+                                <rect key="frame" x="73" y="20" width="229" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Abx-Kv-7Ok"/>
+                                    <constraint firstAttribute="width" constant="229" id="ljc-l3-ha4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" red="0.92124956849999995" green="0.92194885019999995" blue="0.92135781049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Output:" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBV-nR-W9j">
+                                <rect key="frame" x="3" y="60" width="368" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.92124956849999995" green="0.92194885019999995" blue="0.92135781049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kc4-tM-X80" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7eu-Vl-qjt"/>
+                            <constraint firstItem="aga-rx-qUO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IDf-ZB-w28"/>
+                            <constraint firstItem="kc4-tM-X80" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RFm-gw-QFJ"/>
+                            <constraint firstItem="aga-rx-qUO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Vgj-T7-4wJ"/>
+                            <constraint firstItem="SeK-X1-Ssq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XDm-0A-tqi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SeK-X1-Ssq" secondAttribute="bottom" constant="20" id="gAU-6V-PZK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="kc4-tM-X80" id="PLT-yM-Azt"/>
+                        <outlet property="outputLabel" destination="WBV-nR-W9j" id="Bnn-X4-Xmf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+</document>
