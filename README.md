@@ -8,7 +8,7 @@ iOS OpenPose Example App
 * iOS 9.0+
 * Swift 4
 
-## Dependencies Library
+## Dependencies
 
 * [UpSurge](https://github.com/aleph7/Upsurge)
 * [CoreMLHelpers](https://github.com/hollance/CoreMLHelpers)
