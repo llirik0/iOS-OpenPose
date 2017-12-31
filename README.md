@@ -8,6 +8,13 @@ iOS OpenPose Example App
 * iOS 9.0+
 * Swift 4
 
+## Dependencies Library
+
+* [UpSurge](https://github.com/aleph7/Upsurge)
+* [CoreMLHelpers](https://github.com/hollance/CoreMLHelpers)
+* [IteratorTools](https://github.com/mpangburn/IteratorTools)
+* [OpenCV](https://opencv.org/releases.html)
+
 ## ToDo
 * Detailed explanation
 
