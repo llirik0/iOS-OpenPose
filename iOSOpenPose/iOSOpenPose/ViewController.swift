@@ -114,7 +114,9 @@ class ViewController: UIViewController {
                 let center1 = CGPoint(x: Int(Int(part.c1.0) * imageW / heatW), y: Int(Int(part.c1.1) * imageH / heatH))
                 let center2 = CGPoint(x: Int(Int(part.c2.0) * imageW / heatW), y: Int(Int(part.c2.1) * imageH / heatH))
                 
-                addLine(fromPoint: center1, toPoint: center2, color: com.cocoColors[partIdx])
+                if let color: UIColor = com.cocoColors[safe: partIdx] {
+                    addLine(fromPoint: center1, toPoint: center2, color: color)
+                }
             }
         }
     }
