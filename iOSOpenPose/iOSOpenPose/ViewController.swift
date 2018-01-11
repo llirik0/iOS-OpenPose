@@ -24,9 +24,18 @@ class ViewController: UIViewController {
         
         let camera = CameraViewController(WidthAndHeight: 600) { image in
             
-            if (image != nil){
-                self.outputLabel.text = self.measure(self.runCoreML(image!)).duration
+            if (image != nil) {
+                DispatchQueue.main.async {
+                    MBProgressHUD.showAdded(to: self.view, animated: true)
+                }
+                DispatchQueue.global(qos: .background).async {
+                    self.outputLabel.text = self.measure(self.runCoreML(image!)).duration
+                    DispatchQueue.main.async {
+                        MBProgressHUD.hide(for: self.view, animated: true)
+                    }
+                }
             }
+            
             self.dismiss(animated: true, completion: nil)
         }
         

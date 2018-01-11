@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A3F16D20076753001DD1D7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3F16C20076753001DD1D7 /* MBProgressHUD.m */; };
 		08A946621FF9012F001D6288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946611FF9012F001D6288 /* AppDelegate.swift */; };
 		08A946641FF9012F001D6288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946631FF9012F001D6288 /* ViewController.swift */; };
 		08A946671FF9012F001D6288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A946651FF9012F001D6288 /* Main.storyboard */; };
@@ -23,7 +24,6 @@
 		08A9468C1FF90E47001D6288 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946811FF90E47001D6288 /* CropOverlay.swift */; };
 		08A9468D1FF90E47001D6288 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946821FF90E47001D6288 /* CropViewController.swift */; };
 		08A9468E1FF90E47001D6288 /* CameraTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946841FF90E47001D6288 /* CameraTool.swift */; };
-		08A946911FF9100F001D6288 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A946901FF9100F001D6288 /* opencv2.framework */; };
 		08A946931FF91032001D6288 /* MobileOpenPose.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 08A946921FF91032001D6288 /* MobileOpenPose.mlmodel */; };
 		08A946E51FF91054001D6288 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946961FF91053001D6288 /* Exponential.swift */; };
 		08A946E61FF91054001D6288 /* ComplexArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946971FF91053001D6288 /* ComplexArithmetic.swift */; };
@@ -78,9 +78,12 @@
 		08A947291FF91054001D6288 /* Grouped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946E31FF91054001D6288 /* Grouped.swift */; };
 		08A9472A1FF91054001D6288 /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946E41FF91054001D6288 /* Repeater.swift */; };
 		08A9472C1FF9108D001D6288 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A9472B1FF9108D001D6288 /* Common.swift */; };
+		08C5725820076BD6004368C2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C5725720076BD6004368C2 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08A3F16B20076753001DD1D7 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		08A3F16C20076753001DD1D7 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		08A9465E1FF9012F001D6288 /* iOSOpenPose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSOpenPose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A946611FF9012F001D6288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A946631FF9012F001D6288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +104,6 @@
 		08A946811FF90E47001D6288 /* CropOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropOverlay.swift; sourceTree = "<group>"; };
 		08A946821FF90E47001D6288 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
 		08A946841FF90E47001D6288 /* CameraTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTool.swift; sourceTree = "<group>"; };
-		08A946901FF9100F001D6288 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = iOSOpenPose/Frameworks/opencv2.framework; sourceTree = "<group>"; };
 		08A946921FF91032001D6288 /* MobileOpenPose.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileOpenPose.mlmodel; sourceTree = "<group>"; };
 		08A946961FF91053001D6288 /* Exponential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponential.swift; sourceTree = "<group>"; };
 		08A946971FF91053001D6288 /* ComplexArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexArithmetic.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		08A946E31FF91054001D6288 /* Grouped.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grouped.swift; sourceTree = "<group>"; };
 		08A946E41FF91054001D6288 /* Repeater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repeater.swift; sourceTree = "<group>"; };
 		08A9472B1FF9108D001D6288 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		08C5725720076BD6004368C2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = iOSOpenPose/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,13 +167,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A946911FF9100F001D6288 /* opencv2.framework in Frameworks */,
+				08C5725820076BD6004368C2 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A3F16E2007676B001DD1D7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				08A3F16B20076753001DD1D7 /* MBProgressHUD.h */,
+				08A3F16C20076753001DD1D7 /* MBProgressHUD.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		08A946551FF9012F001D6288 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +205,7 @@
 			children = (
 				08A946611FF9012F001D6288 /* AppDelegate.swift */,
 				08A946631FF9012F001D6288 /* ViewController.swift */,
+				08A3F16E2007676B001DD1D7 /* Utils */,
 				08A946781FF90E47001D6288 /* CameraViewController */,
 				08A946771FF901D5001D6288 /* OpenCV */,
 				08A9472F1FF91495001D6288 /* CoreML */,
@@ -241,7 +254,7 @@
 		08A9468F1FF9100F001D6288 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08A946901FF9100F001D6288 /* opencv2.framework */,
+				08C5725720076BD6004368C2 /* opencv2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -481,6 +494,7 @@
 				08A947061FF91054001D6288 /* Predictions.swift in Sources */,
 				08A946FF1FF91054001D6288 /* Hyperbolic.swift in Sources */,
 				08A946ED1FF91054001D6288 /* TensorSlice.swift in Sources */,
+				08A3F16D20076753001DD1D7 /* MBProgressHUD.m in Sources */,
 				08A947001FF91054001D6288 /* 2DTensorSlice.swift in Sources */,
 				08A946F01FF91054001D6288 /* MatrixSlice.swift in Sources */,
 				08A946E61FF91054001D6288 /* ComplexArithmetic.swift in Sources */,
@@ -635,14 +649,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VWFG5BQAVT;
+				DEVELOPMENT_TEAM = 63TG84TE66;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSOpenPose/Frameworks",
+					"$(PROJECT_DIR)/iOSOpenPose",
 				);
 				INFOPLIST_FILE = iOSOpenPose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eugenebokhan.iOSOpenPose;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenebokhan.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSOpenPose/iOSOpenPose-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -657,14 +672,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VWFG5BQAVT;
+				DEVELOPMENT_TEAM = 63TG84TE66;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSOpenPose/Frameworks",
+					"$(PROJECT_DIR)/iOSOpenPose",
 				);
 				INFOPLIST_FILE = iOSOpenPose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eugenebokhan.iOSOpenPose;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eugenebokhan.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOSOpenPose/iOSOpenPose-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
