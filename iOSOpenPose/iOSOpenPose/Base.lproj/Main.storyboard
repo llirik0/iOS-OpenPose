@@ -32,14 +32,14 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeK-X1-Ssq">
                                 <rect key="frame" x="3" y="587" width="368" height="60"/>
-                                <color key="backgroundColor" red="0.10058242532176165" green="0.10058242532176165" blue="0.10058242532176165" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.15690436959266663" green="0.16078102588653564" blue="0.160784512758255" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="0LS-7B-Gg3"/>
                                     <constraint firstAttribute="width" constant="368" id="U0r-sk-tjA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Monaco" family="Monaco" pointSize="22"/>
                                 <state key="normal" title="Choose Image">
-                                    <color key="titleColor" red="0.26604491472244263" green="0.59048253297805786" blue="0.81179457902908325" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.26300036910000002" green="0.52346920969999999" blue="0.96475344900000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
