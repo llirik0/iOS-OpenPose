@@ -79,6 +79,8 @@
 		08A9472A1FF91054001D6288 /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946E41FF91054001D6288 /* Repeater.swift */; };
 		08A9472C1FF9108D001D6288 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A9472B1FF9108D001D6288 /* Common.swift */; };
 		08C5725820076BD6004368C2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C5725720076BD6004368C2 /* opencv2.framework */; };
+		08D6DC0E200F92F100809DEB /* monaco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08D6DC0D200F92F000809DEB /* monaco.ttf */; };
+		08D6DC10200F93E500809DEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08A9466D1FF9012F001D6288 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +162,7 @@
 		08A946E41FF91054001D6288 /* Repeater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repeater.swift; sourceTree = "<group>"; };
 		08A9472B1FF9108D001D6288 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		08C5725720076BD6004368C2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = iOSOpenPose/opencv2.framework; sourceTree = "<group>"; };
+		08D6DC0D200F92F000809DEB /* monaco.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = monaco.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,9 +214,10 @@
 				08A9472F1FF91495001D6288 /* CoreML */,
 				08A946941FF91053001D6288 /* Libraries */,
 				08A946651FF9012F001D6288 /* Main.storyboard */,
-				08A946681FF9012F001D6288 /* Assets.xcassets */,
 				08A9466A1FF9012F001D6288 /* LaunchScreen.storyboard */,
+				08A946681FF9012F001D6288 /* Assets.xcassets */,
 				08A9466D1FF9012F001D6288 /* Info.plist */,
+				08D6DC0F200F934300809DEB /* Supporting Files */,
 				08A946731FF9017B001D6288 /* iOSOpenPose-Bridging-Header.h */,
 			);
 			path = iOSOpenPose;
@@ -370,6 +374,14 @@
 			path = CoreML;
 			sourceTree = "<group>";
 		};
+		08D6DC0F200F934300809DEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08D6DC0D200F92F000809DEB /* monaco.ttf */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -432,7 +444,9 @@
 			files = (
 				08A9466C1FF9012F001D6288 /* LaunchScreen.storyboard in Resources */,
 				08A946851FF90E47001D6288 /* CameraViewController.xib in Resources */,
+				08D6DC10200F93E500809DEB /* Info.plist in Resources */,
 				08A946691FF9012F001D6288 /* Assets.xcassets in Resources */,
+				08D6DC0E200F92F100809DEB /* monaco.ttf in Resources */,
 				08A9468A1FF90E47001D6288 /* FilterCollectionViewCell.xib in Resources */,
 				08A946671FF9012F001D6288 /* Main.storyboard in Resources */,
 				08A946871FF90E47001D6288 /* Camera.xcassets in Resources */,

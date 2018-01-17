@@ -32,11 +32,9 @@ class ViewController: UIViewController {
                 DispatchQueue.main.async {
                     MBProgressHUD.showAdded(to: self.view, animated: true)
                 }
-                DispatchQueue.global(qos: .background).async {
+                DispatchQueue.main.async {
                     self.outputLabel.text = self.measure(self.runCoreML(image!)).duration
-                    DispatchQueue.main.async {
-                        MBProgressHUD.hide(for: self.view, animated: true)
-                    }
+                    MBProgressHUD.hide(for: self.view, animated: true)
                 }
             }
             
