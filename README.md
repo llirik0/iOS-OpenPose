@@ -1,8 +1,6 @@
 # iOS OpenPose
 
-iOS OpenPose Example App
-
-![hash_table](Media/iOSOpenPose.png)
+<p align="center"><img src="Media/iOSOpenPose.png"></p>
 
 ## Requirements
 * iOS 9.0+

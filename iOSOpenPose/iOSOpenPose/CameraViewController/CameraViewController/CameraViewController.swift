@@ -35,6 +35,10 @@ class CameraViewController: UIViewController {
     @IBOutlet weak var focusView: UIView!
     @IBOutlet weak var btnFlash: UIButton!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     
     init(WidthAndHeight: CGFloat , completion: @escaping TakeCameraCompletion) {
         super.init(nibName: nil, bundle: nil)

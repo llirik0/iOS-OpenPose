@@ -18,6 +18,10 @@ public class CropViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var confirmButton: UIButton!
     @IBOutlet weak var centeringView: UIView!
     
+    override public var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     var verticalPadding: CGFloat = 30
     var horizontalPadding: CGFloat = 30
     

@@ -46,20 +46,20 @@
                                     <action selector="chooseImageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gpo-rC-xc9"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[368 x 368]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aga-rx-qUO">
-                                <rect key="frame" x="73" y="20" width="229" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="Abx-Kv-7Ok"/>
-                                    <constraint firstAttribute="width" constant="229" id="ljc-l3-ha4"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                                <color key="textColor" red="0.92124956849999995" green="0.92194885019999995" blue="0.92135781049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Output:" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBV-nR-W9j">
                                 <rect key="frame" x="3" y="60" width="368" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.92124956849999995" green="0.92194885019999995" blue="0.92135781049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[368 x 368]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aga-rx-qUO">
+                                <rect key="frame" x="73" y="20" width="229" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="Abx-Kv-7Ok"/>
+                                    <constraint firstAttribute="width" constant="229" id="ljc-l3-ha4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" red="0.92124956849999995" green="0.92194885019999995" blue="0.92135781049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>

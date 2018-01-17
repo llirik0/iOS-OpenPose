@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var outputLabel: UILabel!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     let drawLayer = CALayer()
     
     // MARK: - UI Actions
