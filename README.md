@@ -1,4 +1,3 @@
-# iOS OpenPose
 
 <p align="center"><img src="Media/iOSOpenPose.png"></p>
 
