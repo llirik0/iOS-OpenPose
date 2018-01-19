@@ -77,10 +77,12 @@
 		08A947281FF91054001D6288 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946E21FF91054001D6288 /* Counter.swift */; };
 		08A947291FF91054001D6288 /* Grouped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946E31FF91054001D6288 /* Grouped.swift */; };
 		08A9472A1FF91054001D6288 /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A946E41FF91054001D6288 /* Repeater.swift */; };
-		08A9472C1FF9108D001D6288 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A9472B1FF9108D001D6288 /* Common.swift */; };
 		08C5725820076BD6004368C2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C5725720076BD6004368C2 /* opencv2.framework */; };
 		08D6DC0E200F92F100809DEB /* monaco.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08D6DC0D200F92F000809DEB /* monaco.ttf */; };
-		08D6DC10200F93E500809DEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08A9466D1FF9012F001D6288 /* Info.plist */; };
+		08E6F84420121497004D5F41 /* CocoPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E6F84320121497004D5F41 /* CocoPairs.swift */; };
+		08E6F8462012150A004D5F41 /* PoseEstimatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E6F8452012150A004D5F41 /* PoseEstimatior.swift */; };
+		08E6F84820121924004D5F41 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E6F84720121924004D5F41 /* Human.swift */; };
+		08E6F84A20121996004D5F41 /* BodyPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E6F84920121996004D5F41 /* BodyPart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,9 +162,12 @@
 		08A946E21FF91054001D6288 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		08A946E31FF91054001D6288 /* Grouped.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grouped.swift; sourceTree = "<group>"; };
 		08A946E41FF91054001D6288 /* Repeater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repeater.swift; sourceTree = "<group>"; };
-		08A9472B1FF9108D001D6288 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		08C5725720076BD6004368C2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = iOSOpenPose/opencv2.framework; sourceTree = "<group>"; };
 		08D6DC0D200F92F000809DEB /* monaco.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = monaco.ttf; sourceTree = "<group>"; };
+		08E6F84320121497004D5F41 /* CocoPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoPairs.swift; sourceTree = "<group>"; };
+		08E6F8452012150A004D5F41 /* PoseEstimatior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseEstimatior.swift; sourceTree = "<group>"; };
+		08E6F84720121924004D5F41 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		08E6F84920121996004D5F41 /* BodyPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,8 +373,11 @@
 		08A9472F1FF91495001D6288 /* CoreML */ = {
 			isa = PBXGroup;
 			children = (
-				08A9472B1FF9108D001D6288 /* Common.swift */,
 				08A946921FF91032001D6288 /* MobileOpenPose.mlmodel */,
+				08E6F8452012150A004D5F41 /* PoseEstimatior.swift */,
+				08E6F84720121924004D5F41 /* Human.swift */,
+				08E6F84920121996004D5F41 /* BodyPart.swift */,
+				08E6F84320121497004D5F41 /* CocoPairs.swift */,
 			);
 			path = CoreML;
 			sourceTree = "<group>";
@@ -444,7 +452,6 @@
 			files = (
 				08A9466C1FF9012F001D6288 /* LaunchScreen.storyboard in Resources */,
 				08A946851FF90E47001D6288 /* CameraViewController.xib in Resources */,
-				08D6DC10200F93E500809DEB /* Info.plist in Resources */,
 				08A946691FF9012F001D6288 /* Assets.xcassets in Resources */,
 				08D6DC0E200F92F100809DEB /* monaco.ttf in Resources */,
 				08A9468A1FF90E47001D6288 /* FilterCollectionViewCell.xib in Resources */,
@@ -469,6 +476,7 @@
 				08A946EA1FF91054001D6288 /* Tensor.swift in Sources */,
 				08A946EE1FF91054001D6288 /* Span.swift in Sources */,
 				08A947241FF91054001D6288 /* Combinations.swift in Sources */,
+				08E6F84A20121996004D5F41 /* BodyPart.swift in Sources */,
 				08A946EC1FF91054001D6288 /* ComplexArrayRealSlice.swift in Sources */,
 				08A947021FF91054001D6288 /* QuadraticType.swift in Sources */,
 				08A947231FF91054001D6288 /* Cycle.swift in Sources */,
@@ -477,13 +485,16 @@
 				08A946E81FF91054001D6288 /* PointerUtilities.swift in Sources */,
 				08A946F81FF91054001D6288 /* TensorType.swift in Sources */,
 				08A946641FF9012F001D6288 /* ViewController.swift in Sources */,
+				08E6F84420121497004D5F41 /* CocoPairs.swift in Sources */,
 				08A9471E1FF91054001D6288 /* ZipToLongest.swift in Sources */,
 				08A9468B1FF90E47001D6288 /* LightStatusImagePickerController.swift in Sources */,
 				08A946E51FF91054001D6288 /* Exponential.swift in Sources */,
 				08A9468C1FF90E47001D6288 /* CropOverlay.swift in Sources */,
 				08A946F91FF91054001D6288 /* DSP.swift in Sources */,
 				08A946881FF90E47001D6288 /* CameraViewController.swift in Sources */,
+				08E6F8462012150A004D5F41 /* PoseEstimatior.swift in Sources */,
 				08A947091FF91054001D6288 /* NonMaxSuppression.swift in Sources */,
+				08E6F84820121924004D5F41 /* Human.swift in Sources */,
 				08A947271FF91054001D6288 /* Product.swift in Sources */,
 				08A946F11FF91054001D6288 /* LinearOperators.swift in Sources */,
 				08A947051FF91054001D6288 /* Array.swift in Sources */,
@@ -493,7 +504,6 @@
 				08A9470A1FF91054001D6288 /* MLMultiArray+Image.swift in Sources */,
 				08A946FD1FF91054001D6288 /* Trigonometric.swift in Sources */,
 				08A946F31FF91054001D6288 /* Sequence.swift in Sources */,
-				08A9472C1FF9108D001D6288 /* Common.swift in Sources */,
 				08A946FC1FF91054001D6288 /* Complex.swift in Sources */,
 				08A947071FF91054001D6288 /* MultiArray.swift in Sources */,
 				08A947251FF91054001D6288 /* AnyIterator.swift in Sources */,

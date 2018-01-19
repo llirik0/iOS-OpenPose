@@ -1,5 +1,5 @@
 
-<p align="center"><img src="Media/iOSOpenPose.png"></p>
+<p align="center"><img src="Media/iOS OpenPose.png"></p>
 
 ## Requirements
 * iOS 9.0+
@@ -17,5 +17,4 @@
 * Detailed explanation
 
 ## License
-
 Licensed under the terms of the [MIT license](LICENSE.txt).
