@@ -2,7 +2,7 @@
 <p align="center"><img src="Media/iOS OpenPose.png"></p>
 
 ## Requirements
-* iOS 9.0+
+* iOS 11.0+
 * Swift 4
 
 ## Frameworks
